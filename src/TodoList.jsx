@@ -74,7 +74,9 @@ export default function TodoList() {
             <input type="text" placeholder="add a task" value={newtodo} onChange={UpdateTodoValue} />
             &nbsp; &nbsp;
             <button onClick={addNewTask} >Add Todo</button>
+            <hr />
             <h2><b> Tasks Of Todo</b></h2>
+                <hr />
             <ul className="todo-list">
                 {
                     todos.map((todo) => {
